@@ -33,8 +33,8 @@
                   "title": { "type": "string" },
                   "description": { "type": "string" },
                   "priority": { "type": "string" },
-                  "dueDate": { "type": "string" },
-                  "assignedTo": { "type": "string" },
+                  "dueDate": { "type": "string", "format": "date-time" },
+                  "assignedTo": { "type": "string", "format": "date-time" },
                   "category": { "type": "string" }
                 },
                 "required": [
@@ -83,7 +83,7 @@
                   "title": { "type": "string" },
                   "description": { "type": "string" },
                   "priority": { "type": "string" },
-                  "dueDate": { "type": "string" },
+                  "dueDate": { "type": "string", "format": "date-time" },
                   "assignedTo": { "type": "string" },
                   "category": { "type": "string" }
                 }
