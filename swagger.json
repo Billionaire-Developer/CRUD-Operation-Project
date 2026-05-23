@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TaskFlow API",
+    "version": "1.0.0",
+    "description": "TaskFlow CRUD API"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/api/tasks": {
+      "get": {
+        "summary": "Get all tasks"
+      },
+      "post": {
+        "summary": "Create a task"
+      }
+    },
+    "/api/tasks/{id}": {
+      "put": {
+        "summary": "Update a task"
+      },
+      "delete": {
+        "summary": "Delete a task"
+      }
+    },
+    "/api/users": {
+      "get": {
+        "summary": "Get all users"
+      },
+      "post": {
+        "summary": "Create a user"
+      }
+    },
+    "/api/users/{id}": {
+      "put": {
+        "summary": "Update a user"
+      },
+      "delete": {
+        "summary": "Delete a user"
+      }
+    }
+  }
+}
